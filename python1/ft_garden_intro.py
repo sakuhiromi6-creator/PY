@@ -1,10 +1,9 @@
-
 if __name__ == "__main__":
     print("=== Welcome to My Garden ===")
 
     name = "Rose"
     print(f"Plant: {name}")
-    
+
     height = 25
     print(f"Height: {height}cm")
 
