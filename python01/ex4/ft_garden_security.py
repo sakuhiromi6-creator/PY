@@ -8,6 +8,7 @@ class Plant:
 
     def get_height(self):
         return self._height
+
     def set_height(self, new_height):
         if new_height < 0:
             print(
@@ -16,18 +17,22 @@ class Plant:
             )
         else:
             self._height = new_height
+
     def get_age(self):
         return self._age
+
     def set_age(self, new_age):
         if new_age < 0:
-             print(
+            print(
                 f"{self._nome}: "
                 f"Error, age can't be negative \nAge update rejected"
             )
         else:
             self._age = new_age
+
     def __str__(self):
         return f"{self._nome}: {self._height}cm, {self._age} days old"
+
 
 print("=== Garden Security System ===")
 

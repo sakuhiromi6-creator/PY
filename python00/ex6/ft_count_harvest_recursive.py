@@ -1,13 +1,13 @@
 def ft_count_harvest_recursive():
     n = int(input("Days until harvest: "))
 
-    def helper(giorno_corrente):
-        print(f"Day {giorno_corrente}")
+    def helper(current_day):
+        print(f"Day {current_day}")
 
-        if giorno_corrente == n:
+        if current_day == n:
             print("Harvest time!")
             return
 
-        helper(giorno_corrente + 1)
+        helper(current_day + 1)
 
     helper(1)
