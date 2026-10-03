@@ -3,3 +3,7 @@ def ft_plot_area():
     width = int(input("Enter width: "))
     result = (length * width)
     print(f"Plot area: {result}")
+
+
+# if __name__ == "__main__":
+#    ft_plot_area()

@@ -11,3 +11,6 @@ def ft_count_harvest_recursive():
         helper(current_day + 1)
 
     helper(1)
+
+# if __name__ == "__main__":
+#   ft_count_harvest_recursive()

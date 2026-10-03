@@ -4,3 +4,6 @@ def ft_harvest_total():
     day_3 = int(input("Day 3 harvest: "))
     result = (day_1 + day_2 + day_3)
     print(f"Total harvest: {result}")
+
+# if __name__ == "__main__":
+#    ft_harvest_total()

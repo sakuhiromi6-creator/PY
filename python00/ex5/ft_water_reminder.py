@@ -4,3 +4,6 @@ def ft_water_reminder():
         print("Water the plants!")
     else:
         print("Plants are fine")
+
+# if __name__ == "__main__":
+#    ft_water_reminder()
